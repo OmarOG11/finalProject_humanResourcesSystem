@@ -1,20 +1,33 @@
 {
   "name": "finalproject-humanresourcessystem",
   "version": "1.0.0",
-  "description": "An API REST using express.js",
+  "description": "This is a final project for the node.js workshop",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarOG11/finalProject_humanResourcesSystem.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
     "express",
-    "nodejs"
+    "jwt",
+    "mysql"
   ],
   "author": "Omar OG",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarOG11/finalProject_humanResourcesSystem/issues"
+  },
+  "homepage": "https://github.com/OmarOG11/finalProject_humanResourcesSystem#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
   }
 }

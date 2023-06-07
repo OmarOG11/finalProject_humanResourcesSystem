@@ -1,0 +1,198 @@
+-- CREATE COMMANDS
+
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    lastname VARCHAR(255),
+    phone VARCHAR(20),
+    email VARCHAR(255),
+    address VARCHAR(255),
+);
+
+CREATE TABLE user (
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(100)
+);
+
+-- INSERT COMMANDS 
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (1, 'Omar', 'Clark', '123456789', 'omar.clark@example.com', '117 Main Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (2, 'Charly', 'Lee', '987654321', 'charly.lee@example.com', '777 Oak Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (3, 'Gustavo', 'Williams', '456789123', 'gustavo.williams@example.com', '664 Elm Drive');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (4, 'Sarah', 'Brown', '789123456', 'sarah.brown@example.com', '321 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (5, 'David', 'Miller', '567891234', 'david.miller@example.com', '654 Cedar Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (6, 'Olivia', 'Davis', '123987456', 'olivia.davis@example.com', '987 Maple Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (7, 'Daniel', 'Wilson', '456321789', 'daniel.wilson@example.com', '741 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (8, 'Sophia', 'Moore', '789654123', 'sophia.moore@example.com', '963 Elm Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (9, 'James', 'Taylor', '321654987', 'james.taylor@example.com', '147 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (10, 'Emma', 'Clark', '654987321', 'emma.clark@example.com', '258 Maple Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (11, 'Jacob', 'Wilson', '789654123', 'jacob.wilson@example.com', '321 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (12, 'Liam', 'Johnson', '987321654', 'liam.johnson@example.com', '852 Elm Drive');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (13, 'Mia', 'Anderson', '456789321', 'mia.anderson@example.com', '963 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (14, 'Noah', 'Thompson', '789123654', 'noah.thompson@example.com', '456 Cedar Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (15, 'Ava', 'Harris', '321456987', 'ava.harris@example.com', '741 Maple Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (16, 'Ethan', 'Martin', '654123789', 'ethan.martin@example.com', '987 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (17, 'Isabella', 'Garcia', '789987654', 'isabella.garcia@example.com', '321 Elm Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (18, 'Liam', 'Rodriguez', '456123789', 'liam.rodriguez@example.com', '654 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (19, 'Sophia', 'Lee', '789456123', 'sophia.lee@example.com', '147 Cedar Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (20, 'Benjamin', 'Clark', '321654789', 'benjamin.clark@example.com', '258 Maple Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (21, 'Alexander', 'Wilson', '987654321', 'alexander.wilson@example.com', '123 Elm Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (22, 'Sophie', 'Roberts', '123456789', 'sophie.roberts@example.com', '456 Oak Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (23, 'Daniel', 'Thompson', '789456123', 'daniel.thompson@example.com', '789 Maple Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (24, 'Isabella', 'Anderson', '321654987', 'isabella.anderson@example.com', '147 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (25, 'Oliver', 'Davis', '987321654', 'oliver.davis@example.com', '321 Cedar Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (26, 'Charlotte', 'Moore', '654987321', 'charlotte.moore@example.com', '654 Elm Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (27, 'James', 'Taylor', '321456789', 'james.taylor@example.com', '987 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (28, 'Amelia', 'Harris', '789123456', 'amelia.harris@example.com', '741 Maple Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (29, 'Benjamin', 'Wilson', '456789123', 'benjamin.wilson@example.com', '963 Cedar Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (30, 'Mia', 'Johnson', '123987456', 'mia.johnson@example.com', '258 Elm Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (31, 'William', 'Martin', '789654321', 'william.martin@example.com', '321 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (32, 'Ava', 'Wilson', '456321789', 'ava.wilson@example.com', '654 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (33, 'Joseph', 'Garcia', '987654123', 'joseph.garcia@example.com', '789 Elm Drive');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (34, 'Harper', 'Clark', '321789456', 'harper.clark@example.com', '147 Cedar Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (35, 'Henry', 'Thomas', '654123789', 'henry.thomas@example.com', '963 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (36, 'Ella', 'Robinson', '789456123', 'ella.robinson@example.com', '456 Maple Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (37, 'Sebastian', 'Young', '123654789', 'sebastian.young@example.com', '852 Elm Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (38, 'Scarlett', 'Allen', '789321654', 'scarlett.allen@example.com', '456 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (39, 'David', 'King', '321987654', 'david.king@example.com', '741 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (40, 'Abigail', 'White', '654789321', 'abigail.white@example.com', '987 Cedar Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (41, 'Elijah', 'Hall', '789654123', 'elijah.hall@example.com', '147 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (42, 'Elizabeth', 'Young', '456321789', 'elizabeth.young@example.com', '654 Oak Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (43, 'Michael', 'Baker', '987654123', 'michael.baker@example.com', '789 Elm Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (44, 'Grace', 'White', '321789456', 'grace.white@example.com', '456 Maple Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (45, 'Daniel', 'Carter', '789456123', 'daniel.carter@example.com', '963 Cedar Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (46, 'Victoria', 'Thompson', '123654789', 'victoria.thompson@example.com', '258 Elm Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (47, 'Jackson', 'Lewis', '789321654', 'jackson.lewis@example.com', '321 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (48, 'Sofia', 'Gonzalez', '654987321', 'sofia.gonzalez@example.com', '987 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (49, 'Carter', 'Walker', '321456987', 'carter.walker@example.com', '741 Maple Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (50, 'Chloe', 'Parker', '987123654', 'chloe.parker@example.com', '456 Cedar Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (51, 'Liam', 'Turner', '789456321', 'liam.turner@example.com', '147 Pine Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (52, 'Nora', 'Collins', '456123789', 'nora.collins@example.com', '654 Oak Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (53, 'Matthew', 'Bennett', '987321654', 'matthew.bennett@example.com', '678 Elm Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (54, 'Grace', 'Ward', '321789654', 'grace.ward@example.com', '456 Maple Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (55, 'Ryan', 'Cooper', '789654123', 'ryan.cooper@example.com', '963 Cedar Road');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (56, 'Avery', 'Sanders', '123654987', 'avery.sanders@example.com', '258 Elm Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (57, 'Luke', 'Harrison', '789321456', 'luke.harrison@example.com', '321 Pine Lane');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (58, 'Audrey', 'Kelly', '654987321', 'audrey.kelly@example.com', '987 Oak Street');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (59, 'Henry', 'Murray', '321456987', 'henry.murray@example.com', '741 Maple Avenue');
+
+INSERT INTO employees (id, name, lastname, phone, email, address)
+VALUES (60, 'Scarlett', 'Howard', '987123654', 'scarlett.howard@example.com', '456 Cedar Lane');
